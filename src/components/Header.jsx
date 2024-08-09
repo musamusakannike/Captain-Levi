@@ -28,7 +28,7 @@ const Header = () => (
               </Button>
             </div>
             <div className="socials mt-4">
-              <a className="social-item me-2 border-primary" href="#">
+              <a className="social-item me-2 border-primary" href="https://discordapp.com/users/1214691064510939168">
                 <FontAwesomeIcon icon={faDiscord} className="text-primary" />
               </a>
               <a className="social-item me-2 border-primary" href="https://x.com/Levi__ton?t=toi5yznKLT3l94XTQ-xs8A&s=09">
