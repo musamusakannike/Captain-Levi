@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faLinkedin,
-  faTwitter,
+  faXTwitter,
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -33,7 +32,7 @@ const Header = () => (
                 <FontAwesomeIcon icon={faLinkedin} className="text-primary" />
               </a>
               <a className="social-item me-2 border-primary" href="#">
-                <FontAwesomeIcon icon={faTwitter} className="text-primary" />
+                <FontAwesomeIcon icon={faXTwitter} className="text-primary" />
               </a>
               <a className="social-item border-primary" href="#">
                 <FontAwesomeIcon icon={faTelegram} className="text-primary" />
