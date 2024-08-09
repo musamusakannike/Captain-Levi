@@ -18,7 +18,7 @@ const Header = () => (
           <Col md={6} className="ps-2 ps-md-4 ps-lg-5 ">
             <h6 className="h1 pt-5 mt-5 pt-lg-2 mt-lg-2">Hello, I'm</h6>
             <h2 className="display-1 fw-bolder">Captain Levi</h2>
-            <p>Web 3 Community Manager</p>
+            <p>Community Manager || Content Creator</p>
             <div className="buttons pt-3">
               <a href="#contact"><Button variant="primary" size="lg" className="rounded me-2">
                 HIRE ME
@@ -31,10 +31,10 @@ const Header = () => (
               <a className="social-item me-2 border-primary" href="#">
                 <FontAwesomeIcon icon={faLinkedin} className="text-primary" />
               </a>
-              <a className="social-item me-2 border-primary" href="#">
+              <a className="social-item me-2 border-primary" href="https://x.com/Levi__ton?t=toi5yznKLT3l94XTQ-xs8A&s=09">
                 <FontAwesomeIcon icon={faXTwitter} className="text-primary" />
               </a>
-              <a className="social-item border-primary" href="#">
+              <a className="social-item border-primary" href="https://t.me/levi_ton">
                 <FontAwesomeIcon icon={faTelegram} className="text-primary" />
               </a>
             </div>
