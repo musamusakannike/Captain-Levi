@@ -25,7 +25,7 @@ const Contact = () => {
         const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${message}`;
 
         // Redirect to Gmail with pre-filled email
-        window.location.href = `mailto:info@captainlevi.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:mubaraqgbolahan07@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         // Optionally, reset the form after submission
         setFormData({
@@ -45,9 +45,7 @@ const Contact = () => {
                     <Col md={6} className="contact-info" data-aos="fade-right">
                         <h6 className="subtitle">Available 24/7</h6>
                         <h2 className="section-title mb-4">Contact Info</h2>
-                        <p><strong>Email:</strong> info@captainlevi.com</p>
-                        <p><strong>Phone:</strong> (123) 456-7890</p>
-                        <p><strong>Location:</strong> 12345 Fake Street, Nowhere, AB, Country</p>
+                        <p><strong>Email:</strong> mubaraqgbolahan07@gmail.com</p>
                     </Col>
                     <Col md={6} data-aos="fade-left">
                         <Form onSubmit={handleSubmit}>

@@ -20,12 +20,10 @@ const Header = () => (
             <h2 className="display-1 fw-bolder">Captain Levi</h2>
             <p>Community Manager || Content Creator</p>
             <div className="buttons pt-3">
-              <a href="#contact"><Button variant="primary" size="lg" className="rounded me-2">
+              <a href="#contact"><Button variant="primary" size="lg" className="me-2">
                 HIRE ME
               </Button></a>
-              <Button variant="dark" size="lg" className="rounded">
-                DOWNLOAD CV
-              </Button>
+              <a href="/assets/imgs/cv.jpg" download="cv.jpg" className="btn btn-dark btn-lg">Download CV</a>
             </div>
             <div className="socials mt-4">
               <a className="social-item me-2 border-primary" href="https://discordapp.com/users/1214691064510939168">
