@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import 'aos/dist/aos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faDiscord, faTelegram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -45,7 +48,10 @@ const Contact = () => {
                     <Col md={6} className="contact-info" data-aos="fade-right">
                         <h6 className="subtitle">Available 24/7</h6>
                         <h2 className="section-title mb-4">Contact Info</h2>
-                        <p><strong>Email:</strong> mubaraqgbolahan07@gmail.com</p>
+                        <p><FontAwesomeIcon className='me-2' icon={faEnvelope} /><strong>Email:</strong> mubaraqgbolahan07@gmail.com</p>
+                        <p><FontAwesomeIcon className='me-2' icon={faXTwitter} /><strong>Twitter (X):</strong> https://x.com/Levi__ton</p>
+                        <p><FontAwesomeIcon className='me-2' icon={faTelegram} /><strong>Telegram:</strong> https://t.me/levi_ton</p>
+                        <p><FontAwesomeIcon className='me-2' icon={faDiscord} /><strong>Discord:</strong> http://discordapp.com/users/1214691064510939168</p>
                     </Col>
                     <Col md={6} data-aos="fade-left">
                         <Form onSubmit={handleSubmit}>
