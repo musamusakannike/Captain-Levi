@@ -8,7 +8,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => (
-  <header className="header" id="home" data-aos="fade-down" style={{marginTop: "100px"}}>
+  <header
+    className="header"
+    id="home"
+    data-aos="fade-down"
+    style={{ marginTop: "100px" }}
+  >
     <Container
       fluid
       className="d-flex justify-content-center align-items-center vh-100"
@@ -20,19 +25,36 @@ const Header = () => (
             <h2 className="display-1 fw-bolder">Captain Levi</h2>
             <p>Community Manager || Content Creator</p>
             <div className="buttons pt-3">
-              <a href="#contact"><Button variant="primary" size="lg" className="me-2">
-                HIRE ME
-              </Button></a>
-              <a href="/assets/imgs/cv.jpg" download="cv.jpg" className="btn btn-dark btn-lg">Download CV</a>
+              <a href="#contact">
+                <Button variant="primary" size="lg" className="me-2 rounded">
+                  HIRE ME
+                </Button>
+              </a>
+              <a
+                href="/assets/imgs/cv.jpg"
+                download="cv.jpg"
+                className="btn btn-dark btn-lg rounded-pill"
+              >
+                Download CV
+              </a>
             </div>
             <div className="socials mt-4">
-              <a className="social-item me-2 border-primary" href="https://discordapp.com/users/1214691064510939168">
+              <a
+                className="social-item me-2 border-primary"
+                href="https://discordapp.com/users/1214691064510939168"
+              >
                 <FontAwesomeIcon icon={faDiscord} className="text-primary" />
               </a>
-              <a className="social-item me-2 border-primary" href="https://x.com/Levi__ton?t=toi5yznKLT3l94XTQ-xs8A&s=09">
+              <a
+                className="social-item me-2 border-primary"
+                href="https://x.com/Levi__ton?t=toi5yznKLT3l94XTQ-xs8A&s=09"
+              >
                 <FontAwesomeIcon icon={faXTwitter} className="text-primary" />
               </a>
-              <a className="social-item border-primary" href="https://t.me/levi_ton">
+              <a
+                className="social-item border-primary"
+                href="https://t.me/levi_ton"
+              >
                 <FontAwesomeIcon icon={faTelegram} className="text-primary" />
               </a>
             </div>
