@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
+  faDiscord,
   faXTwitter,
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
@@ -29,7 +29,7 @@ const Header = () => (
             </div>
             <div className="socials mt-4">
               <a className="social-item me-2 border-primary" href="#">
-                <FontAwesomeIcon icon={faLinkedin} className="text-primary" />
+                <FontAwesomeIcon icon={faDiscord} className="text-primary" />
               </a>
               <a className="social-item me-2 border-primary" href="https://x.com/Levi__ton?t=toi5yznKLT3l94XTQ-xs8A&s=09">
                 <FontAwesomeIcon icon={faXTwitter} className="text-primary" />
